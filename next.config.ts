@@ -4,6 +4,23 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
+        source: "/crypto-profit-zone.apk",
+        headers: [
+          {
+            key: "Content-Type",
+            value: "application/vnd.android.package-archive",
+          },
+          {
+            key: "Content-Disposition",
+            value: 'attachment; filename="crypto-profit-zone.apk"',
+          },
+          {
+            key: "Cache-Control",
+            value: "public, max-age=300",
+          },
+        ],
+      },
+      {
         source: "/sw.js",
         headers: [
           { key: "Content-Type", value: "application/javascript; charset=utf-8" },
