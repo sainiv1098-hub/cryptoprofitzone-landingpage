@@ -4,15 +4,12 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        source: "/crypto-profit-zone.apk",
+        // URL-encoded path for "Crypto Profit Zone.apk"
+        source: "/Crypto%20Profit%20Zone.apk",
         headers: [
           {
             key: "Content-Type",
             value: "application/vnd.android.package-archive",
-          },
-          {
-            key: "Content-Disposition",
-            value: 'attachment; filename="crypto-profit-zone.apk"',
           },
           {
             key: "Cache-Control",
