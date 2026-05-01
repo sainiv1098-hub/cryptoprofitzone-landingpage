@@ -58,7 +58,7 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden md:block">
-          <DownloadButton size="md" label="Install" />
+          <DownloadButton size="md" label="Get Started" />
         </div>
 
         <button
@@ -97,7 +97,7 @@ export default function Navbar() {
               </a>
             ))}
             <div className="pt-2">
-              <DownloadButton size="md" fullWidth label="Install the App" />
+              <DownloadButton size="md" fullWidth label="Get Started" />
             </div>
           </div>
         </div>

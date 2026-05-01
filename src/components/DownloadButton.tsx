@@ -12,7 +12,7 @@ interface DownloadButtonProps {
 export default function DownloadButton({
   size = "lg",
   fullWidth = false,
-  label = "Install the App",
+  label = "Get Started",
   className = "",
 }: DownloadButtonProps) {
   const sizeClasses = {

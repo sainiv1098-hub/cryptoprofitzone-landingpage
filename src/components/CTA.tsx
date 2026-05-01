@@ -33,7 +33,7 @@ export default function CTA() {
               </p>
 
               <div className="flex justify-center">
-                <DownloadButton size="lg" label="Install the App Now" />
+                <DownloadButton size="lg" label="Get Started" />
               </div>
 
               <p className="mt-6 text-xs text-slate-400">

@@ -40,7 +40,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center lg:items-start justify-center lg:justify-start gap-4">
-              <DownloadButton size="lg" label="Install the App" />
+              <DownloadButton size="lg" label="Get Started" />
               <a
                 href="#features"
                 className="inline-flex items-center gap-2 px-6 py-4 rounded-full border border-white/15 text-slate-200 hover:bg-white/5 transition-colors text-sm sm:text-base font-medium"
